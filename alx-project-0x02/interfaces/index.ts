@@ -1,9 +1,6 @@
-import React from 'react'
-
-const index = () => {
-  return 
-   
-  
+export interface CardProps{
+  id?: number
+  title: string
+  content: string
+  img?: string
 }
-
-export default index
