@@ -5,8 +5,8 @@ const PostCard:React.FC <PostProps>= ({title ,content , userId}) => {
   return (
     <div className="card">
         <div className="container">
-        <h4><b>Title</b></h4>
-        <p>Architect & Engineer</p>
+        <b>{title}</b>
+        <p>{content}</p>
     </div>
 </div>
   )
