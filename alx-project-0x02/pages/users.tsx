@@ -48,3 +48,5 @@ const UsersPage: React.FC = () => {
 };
 
 export default UsersPage;
+
+// ["async", "await", "getStaticProps()"]
